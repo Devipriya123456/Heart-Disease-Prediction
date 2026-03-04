@@ -1,1 +1,40 @@
-This python model performs data analysis and heart disease prediction using a dataset (`heart.csv`). It begins with exploratory data analysis (EDA) using visualizations to show the relationship between heart disease and factors like chest pain type, gender, age, and more. It then preprocesses the data using label encoding to convert categorical variables into numerical values. The data is split into training and test sets, and a Naive Bayes classifier is trained to predict heart disease presence. The model's accuracy is evaluated, and a test prediction is made using sample input. Overall, the script combines EDA and machine learning to understand and predict heart disease from patient data.
+# ❤️ Heart Disease Prediction
+
+## 📖 About the Project
+This project aims to predict the presence of heart disease using patient medical data.  
+It includes data preprocessing, exploratory data analysis (EDA), visualization, and implementation of a machine learning classification model.
+
+The objective is to analyze health parameters and build a predictive model that can classify whether a patient is likely to have heart disease.
+
+---
+
+## 📊 Exploratory Data Analysis
+- Analyzed distribution of heart disease cases
+- Compared heart disease frequency across chest pain types
+- Studied gender-based differences
+- Examined Resting ECG and Exercise-Induced Angina impact
+- Visualized age distribution based on heart disease
+
+---
+
+## 🤖 Machine Learning Approach
+- Encoded categorical variables using Label Encoding
+- Split dataset into training and testing sets (80:20)
+- Implemented Gaussian Naive Bayes classifier
+- Evaluated model performance using accuracy score
+- Built a prediction system for new patient inputs
+
+---
+
+## 🛠️ Tech Stack
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+---
+
+## 🚀 How to Run
+1. Install required libraries:
